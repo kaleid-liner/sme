@@ -1,4 +1,4 @@
-#include "benchmark.h"
+#include "benchmark.hpp"
 #include <cstdint>
 #include <cstdlib>
 #include <arm_bf16.h>

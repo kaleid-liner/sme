@@ -1,4 +1,4 @@
-#include "gemm.h"
+#include "gemm.hpp"
 #include "kernels_gemm.h"
 #include <iostream>
 #include <random>

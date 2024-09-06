@@ -1,5 +1,12 @@
-#ifndef BENCHMARK_H
-#define BENCHMARK_H
+//
+//  benchmark.hpp
+//  BenchApp
+//
+//  Created by user on 2024/9/5.
+//
+
+#ifndef benchmark_hpp
+#define benchmark_hpp
 
 extern "C" {
   void run_micro_benchmark( int i_num_threads,
@@ -9,5 +16,4 @@ extern "C" {
                                 int i_align_bytes,
                                 int i_qos_class );
 }
-
-#endif
+#endif /* benchmark_hpp */

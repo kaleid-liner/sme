@@ -1,3 +1,13 @@
+//
+//  BenchApp-Bridging-Header.h
+//  BenchApp
+//
+//  Created by user on 2024/9/5.
+//
+
+#ifndef BenchApp_Bridging_Header_h
+#define BenchApp_Bridging_Header_h
+
 #include <Accelerate/Accelerate.h>
 #include "examples.h"
 #include "check_support.h"
@@ -11,3 +21,5 @@ void run_cblas_benchmark();
 void run_bandwidth_benchmark( int i_kernel_type,
                               int i_align_bytes,
                               int i_qos_class );
+
+#endif /* BenchApp_Bridging_Header_h */

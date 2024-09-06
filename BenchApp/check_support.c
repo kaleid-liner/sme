@@ -30,7 +30,7 @@ void check_streaming_sve_support(){
 void check_sme_support(){
   printf( "Checking for SME support...\n" );
   sme_support();
-  printf( "  SME is supported\n" );  
+  printf( "  SME is supported\n" );
 }
 
 int check_sve_streaming_length(){
